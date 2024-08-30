@@ -33,7 +33,7 @@ class ChatSession:
 
     completions = {
             1:dict(
-                completion=openai.ChatCompletion,model="davinci-002",text='message.content',prompt='messages'
+                completion=openai.ChatCompletion,model="gpt-3.5-turbo",text='message.content',prompt='messages'
             ),
             0:dict(
                 completion=openai.Completion,model="davinci-002",text='text',prompt='prompt'
